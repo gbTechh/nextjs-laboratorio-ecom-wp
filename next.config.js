@@ -1,6 +1,11 @@
+/* eslint-disable @typescript-eslint/semi  @typescript-eslint/triple-slash-reference*/
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+/* @ts-check */
 
-module.exports = nextConfig
+module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['localhost'],
+  },
+}
