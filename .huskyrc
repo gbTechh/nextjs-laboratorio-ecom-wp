@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "commit-msg": "git-commit-msg-linter < .git/COMMIT_EDITMSG"
+  }
+}
